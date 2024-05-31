@@ -45,7 +45,7 @@
   height: 550px;
   width: 400px;
   background: #ccc;
-  background: url('../img/item-blue.jpg');
+  background: url('../src/img/item-blue.jpg');
   background-size: cover;
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
   z-index: 10;
@@ -70,7 +70,7 @@
   height:100%;
   opacity:0;
   filter: alpha(opacity=0);
-  background:url('../img/item-black.jpg');
+  background:url('../src/img/item-black.jpg');
   background-size:cover;
   -webkit-transition:opacity .4s ease;
           transition:opacity .4s ease;
