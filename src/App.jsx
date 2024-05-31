@@ -22,7 +22,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={
+        <Route path="/1" element={
           <>
             <div className="container">
               <div className="background-element"></div>
@@ -32,12 +32,18 @@ function App() {
               <div className="window">
                 <UiFC item={item} />
               </div>
-              
+            </div>
+          </>
+        } />
+        <Route path="/2" element={
+          <>
+            <div className="container">
+              <div className="background-element"></div>
               <div className="highlight-window">
                 <div className='highlight-overlay'></div>
               </div>
               <div className="window">
-                {<ShopItemClass item={item} />}
+                <ShopItemClass item={item} />
               </div>
             </div>
           </>
